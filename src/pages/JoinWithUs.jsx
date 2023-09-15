@@ -71,7 +71,7 @@ const JoinWithUs = () => {
                         <div className="signup mb-3 fw-normal"> 
                             <h6 className="signup mb-3 fw-normal">
                             Don`t have an account yet? Sign up at 
-                            <span> <a href="/signup">Ng.</a> </span>
+                            <span><button onClick={() => navigate("/signup")} className='ng'>Ng.</button> </span>
                             </h6>
                         </div> 
                     </Row>
